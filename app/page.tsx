@@ -55,12 +55,12 @@ export default function Home() {
     <main className="brand-shell min-h-screen overflow-hidden">
       <div className="orb orb-one" /><div className="orb orb-two" /><div className="orb orb-three" />
       <header className="glass-panel brand-ring sticky top-2.5 z-30 mx-3 mt-2.5 flex items-center justify-between rounded-full px-3.5 py-2 shadow-lg sm:mx-6 sm:mt-4 sm:px-6 sm:py-2.5">
-        <a href="https://tabindia.org/PG" target="_blank" rel="noreferrer" className="flex min-w-0 items-center gap-2.5" aria-label="Open TAB India PG website">
+        <a href="https://www.tabindia.org/pg" target="_blank" rel="noreferrer" className="flex min-w-0 items-center gap-2.5" aria-label="Open TAB India PG website">
           <img src="/brand/logo.png" alt="TAB India" className="h-9 w-auto object-contain sm:h-10" />
           <span className="h-5 w-px bg-[#123d63]/15" />
           <span className="truncate text-[10px] font-black uppercase tracking-[.18em] text-[#f26430] sm:text-sm sm:tracking-[.24em]">NEET PG 2026</span>
         </a>
-        <a href="https://tabindia.org/PG" target="_blank" rel="noreferrer" className="portal-link">PG Website <ExternalLink className="size-3.5" /></a>
+        <a href="https://www.tabindia.org/pg" target="_blank" rel="noreferrer" className="portal-link">PG Website <ExternalLink className="size-3.5" /></a>
       </header>
 
       <div className="relative z-10 mx-auto w-full max-w-6xl px-4 pb-12 pt-7 sm:px-6 sm:pb-16 sm:pt-12 lg:px-8">
