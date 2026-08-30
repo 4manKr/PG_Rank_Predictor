@@ -63,13 +63,13 @@ export default function Home() {
           <span className="h-5 w-px bg-[#123d63]/15" />
           <span className="truncate text-[10px] font-black uppercase tracking-[.18em] text-[#f26430] sm:text-sm sm:tracking-[.24em]">NEET PG 2026</span>
         </a>
-        <a href="https://www.tabindia.org/pg" target="_blank" rel="noreferrer" className="portal-link">PG Website <ExternalLink className="size-3.5" /></a>
+        <a href="https://www.tabindia.org/pg" target="_blank" rel="noreferrer" className="portal-link">Check Chances <ExternalLink className="size-3.5" /></a>
       </header>
 
       <div className="relative z-10 mx-auto w-full max-w-6xl px-4 pb-12 pt-7 sm:px-6 sm:pb-16 sm:pt-12 lg:px-8">
         <section className="grid items-center gap-7 lg:grid-cols-[.92fr_1.08fr] lg:gap-14">
           <div className="fade-up text-center lg:text-left">
-            <div className="data-pill"><span className="pulse-dot" /> Based on NEET PG 2025 data</div>
+            <div className="data-pill"><span className="pulse-dot" /> Based on NEET PG 2026 latest trend</div>
             <h1 className="headline mx-auto mt-5 max-w-2xl text-[2.55rem] font-black leading-[.98] text-[#082b4c] sm:text-6xl lg:mx-0 lg:text-7xl">Your score.<br /><span className="gradient-text">Your predicted rank.</span></h1>
             <p className="mx-auto mt-5 max-w-lg text-sm leading-6 text-slate-600 sm:text-lg sm:leading-8 lg:mx-0">Enter your expected NEET PG score out of 720 to estimate your All India Rank.</p>
             <div className="mt-6 flex items-center justify-center gap-5 text-xs font-semibold text-slate-500 lg:justify-start">
