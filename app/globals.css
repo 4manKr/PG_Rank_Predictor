@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@import 'tw-animate-css';
+@import '../node_modules/tw-animate-css/dist/tw-animate.css';
 
 :root { --background:#f7f8fb; --foreground:#082b4c; --card:#fff; --card-foreground:#082b4c; --popover:#fff; --popover-foreground:#082b4c; --primary:#f26430; --primary-foreground:#fff; --secondary:#eef5fb; --secondary-foreground:#123d63; --muted:#f1f5f9; --muted-foreground:#64748b; --accent:#fff2e7; --accent-foreground:#d64c1d; --destructive:#dc2626; --border:rgba(18,61,99,.12); --input:rgba(18,61,99,.15); --ring:#f26430; --radius:1rem; }
 * { box-sizing:border-box; }

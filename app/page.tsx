@@ -7,10 +7,13 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { Input } from '@/components/ui/input';
 import { predictRank, validateScore, type Prediction } from '@/lib/predictor';
 
-const SHEETS_WEBHOOK = process.env.NEXT_PUBLIC_SHEETS_URL || 'https://script.google.com/macros/s/AKfycbwQi_XO2FGV79p2vAGQYy0yGNmODOlnz6z0TAdRQIQI7VKWJPsWSs7EXuTqAx3cR7Rd/exec';
+const SHEETS_WEBHOOK = process.env.NEXT_PUBLIC_SHEETS_URL;
 const formatRank = (value: number) => new Intl.NumberFormat('en-IN').format(value);
 
 async function saveLead(payload: Record<string, unknown>) {
+  if (!SHEETS_WEBHOOK) {
+    throw new Error('Lead storage is not configured.');
+  }
   await fetch(SHEETS_WEBHOOK, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain' }, body: JSON.stringify(payload) });
 }
 

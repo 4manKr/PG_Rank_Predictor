@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://pgrankpredictor.tabindia.org'),
   title: 'NEET PG 2026 Rank Predictor | TAB India',
   description: 'Enter your NEET PG score out of 720 and estimate your 2026 All India Rank based on NEET PG 2025 data.',
   openGraph: {

@@ -12,8 +12,10 @@ pnpm dev
 ## Deploy on Vercel
 
 1. Import this GitHub repository into Vercel.
-2. Keep the detected framework and build settings.
-3. Add `NEXT_PUBLIC_SHEETS_URL` only if you want to replace the currently configured lead webhook.
+2. Confirm the framework preset is **Next.js** and leave the build/output settings at their defaults.
+3. Add `NEXT_PUBLIC_SHEETS_URL` with your own deployed Google Apps Script web-app URL.
 4. Deploy.
+
+The lead form intentionally has no fallback webhook. Name and phone submissions work only after `NEXT_PUBLIC_SHEETS_URL` is configured, preventing candidate details from being sent to an unknown spreadsheet.
 
 The TAB India logo and PG Website button link to [https://www.tabindia.org/pg](https://www.tabindia.org/pg).
