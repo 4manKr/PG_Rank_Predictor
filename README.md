@@ -12,7 +12,7 @@ pnpm dev
 ## Deploy on Vercel
 
 1. Import this GitHub repository into Vercel.
-2. Confirm the framework preset is **Next.js** and leave the build/output settings at their defaults.
+2. The committed `vercel.json` forces the **Next.js** preset and clears any old `dist` output-directory override.
 3. Add `NEXT_PUBLIC_SHEETS_URL` with your own deployed Google Apps Script web-app URL.
 4. Deploy.
 
